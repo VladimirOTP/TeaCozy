@@ -1,0 +1,270 @@
+/*RESET RESET RESeT */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/*RESET RESET RESeT */
+
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    overflow: scroll;
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+header {
+    height: 69px;
+    position: sticky;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    top: 0;
+    z-index: 1;
+
+}
+
+section {
+    margin: 40px 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 0.75rem;
+
+
+}
+
+
+a {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+
+
+}
+
+.mission {
+    background-image: url("./Images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+
+
+}
+
+.our {
+    background-clip: text;
+    background-color: black;
+    width: 1200px;
+
+
+
+}
+
+ h2,
+ h3,
+h4 {
+    margin: 10px 0;
+   
+}
+
+
+
+
+.tea {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+
+
+}
+
+
+.steeping {
+    display: flex;
+    width: 1000px;
+    justify-content: flex-start;
+
+
+}
+
+.steeping ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.steeping img {
+    width: 300px;
+    height: 200px;
+    margin: 0 15px;
+    margin-top: 10px;
+}
+
+.locations {
+    background-image: url("./Images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+
+
+.row div {
+    display: inline-flex;
+    background-color: black;
+    width: 290px;
+    opacity: 1;
+    flex-direction: column;
+    margin: 15px 20px;
+    line-height: 225%;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 200px;
+    line-height: 250%;
+    display: flex;
+}
+
+footer h2 {
+    margin-top: 0px;
+   
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+
+
